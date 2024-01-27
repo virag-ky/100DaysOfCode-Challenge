@@ -1,0 +1,143 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+section.main-container {
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 2.5rem 1.5rem -1.2rem #f0f0ff;
+  border-radius: 1rem;
+  border: 1px solid #f0f0ff8c;
+  position: relative;
+  padding: 2rem;
+  transition: 0.5s;
+}
+
+.icon-tabler-x {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3;
+  padding: 0.25rem;
+}
+
+.collections {
+  margin-top: 2rem;
+}
+
+.collection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid transparent;
+}
+
+.collection:hover {
+  border-color: #f0f0ff;
+  border-radius: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+img {
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 1rem -0.8rem #bdbdfa;
+  object-fit: cover;
+  border: 1px solid #f0f0ff;
+}
+
+.collection-info > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.dot {
+  background: #000;
+  border-radius: 50%;
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button.create-new {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: #d24964;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+button.create-new:hover {
+  background: #fabde227;
+}
+
+.icon-tabler-plus {
+  border-radius: 50%;
+  background: #d2496515;
+  padding: 0.25rem;
+}
+
+button.save {
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  width: 50%;
+  max-width: 150px;
+  background: linear-gradient(90deg, #c584f0, #fb6d9e);
+}
+
+button.save:hover {
+  box-shadow: 0 0 1.2rem #e492fb;
+  transform: scale(1.1);
+}
+
+.icon-tabler-check {
+  border-radius: 50%;
+  border: 5px solid #dcdcff;
+  background: #000;
+  padding: 0.25rem;
+}
+
+.check {
+  margin-left: auto;
+}
+
+@media (max-width: 500px) {
+  .collection {
+    flex-direction: column;
+    text-align: center;
+  }
+}
