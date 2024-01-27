@@ -140,4 +140,8 @@ button.save:hover {
     flex-direction: column;
     text-align: center;
   }
+
+  .check {
+    margin-left: unset;
+ }
 }
