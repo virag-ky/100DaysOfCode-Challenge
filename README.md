@@ -8,4 +8,4 @@
 
 | Day 3 | Day 4 |
 |---|---|
-| [![Watch the video](https://img.youtube.com/vi/-YbD9LOOCy8/hqdefault.jpg)](https://www.youtube.com/embed/-YbD9LOOCy8) |
+| [![Watch the video](https://img.youtube.com/vi/-YbD9LOOCy8/hqdefault.jpg)](https://www.youtube.com/embed/-YbD9LOOCy8) | [![Watch the video](https://img.youtube.com/vi/dsdk2gLGFYo/hqdefault.jpg)](https://www.youtube.com/embed/dsdk2gLGFYo) 
