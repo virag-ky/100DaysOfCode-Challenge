@@ -5,13 +5,13 @@
 }
 
 body {
-  background: #f4f7ff;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  background: #f4f7ff;
   font-family: Arial, Helvetica, sans-serif;
-  color: #383843;
+  color: #292949;
 }
 
 .resources-container {
@@ -46,6 +46,12 @@ p {
   gap: 0.5rem;
 }
 
+.splide__slide {
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
 .content {
   background: #fff;
   border-radius: 1rem;
@@ -53,8 +59,7 @@ p {
   display: flex;
   gap: 1rem;
   height: 100%;
-  max-width: 365px;
-  box-shadow: 0 1rem 1rem -0.5rem #dfe7f6;
+  box-shadow: 0 1rem 1rem -0.5rem #292949;
 }
 
 .icon-tabler {
@@ -66,8 +71,8 @@ p {
 }
 
 button {
-  border: none;
   background: transparent;
+  border: none;
 }
 
 .icon-tabler-chevron-left, .icon-tabler-chevron-right {
@@ -77,8 +82,8 @@ button {
   border-radius: 50%;
   cursor: pointer;
   background: #fafcff;
-  color: #7f83b3;
-  border: 1.5px solid #7f83b337;
+  color: #847eb4;
+  border: 1.5px solid #29294947;
 }
 
 .splide__arrow--prev svg {
@@ -86,13 +91,13 @@ button {
 }
 
 .splide__pagination__page {
-  background: #7f83b3;
+  background: #847eb4;
   width: 0.8rem;
   height: 0.8rem;
 }
 
 .splide__pagination__page.is-active {
-  border: 2px solid #7f83b3;
+  border: 2px solid #847eb4;
   width: 0.7rem;
   height: 0.7rem;
 }
@@ -107,10 +112,6 @@ button {
     align-items: center;
     text-align: center;
     padding: 0.8rem;
-  }
-
-  h3 {
-    font-size: 0.8rem;
   }
 
   p {
