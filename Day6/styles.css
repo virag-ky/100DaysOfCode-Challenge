@@ -1,0 +1,208 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafc;
+  font-family: 'Poppins', sans-serif;
+  color: #1f2438;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 5rem 1rem;
+}
+
+.gray-background {
+  background: #ececf0;
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+  width: 350px;
+  height: 70vh;
+  z-index: -1;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 0.2rem;
+}
+
+section {
+  width: 90%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1.5rem 1.5rem -0.5rem #cbcbcb;
+}
+
+#shadow-host-companion {
+  display: none;
+}
+
+.headphones {
+  max-width: 350px;
+  position: relative;
+}
+
+.headphones img {
+  display: block;
+  margin: 0 auto 1rem auto;
+  object-position: 0 60%;
+  width: 100%;
+}
+
+.headphones-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+#profile-1 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: unset;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+h5 {
+  font-size: 0.8rem;
+}
+
+.headphones-paragraph, .date {
+  font-size: 0.8rem;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: -3rem;
+  left: 40%;
+}
+
+.dot {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border: 1px solid #8790b45f;
+  cursor: pointer;
+}
+
+.active {
+  background: #8790b4;
+}
+
+.location-container {
+  max-width: 450px;
+  position: relative;
+}
+
+.icon-tabler-x {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #8790b45f;
+  color: #8790b4;
+  padding: 0.25rem;
+}
+
+.locations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  row-gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.location {
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.location:hover, .selected {
+  background: #8790b41d;
+  color: #000;
+}
+
+.profile {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.email, .phone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.email {
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+
+
+@media (max-width: 500px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icon-tabler-x {
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+
+  .location-container h2 {
+    text-align: center;
+  }
+
+  .locations {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .location {
+    padding: 0.25rem;
+  }
+}
