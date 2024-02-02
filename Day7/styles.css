@@ -1,0 +1,144 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom right, #daccc8, #b39c94);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  padding: 5rem 0;
+}
+
+.post {
+  margin: 1.5rem 0;
+  background: #eceae2;
+  border-radius: 2rem;
+  padding: 2rem;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+}
+
+.post textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 60px;
+  font-family: inherit;
+}
+
+.icon-tabler-x {
+  cursor: pointer;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+.shadow-bg {
+  background: #c2aea7;
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  z-index: -1;
+}
+
+.main-container {
+  background: #eceae2;
+  border-radius: 2rem;
+  box-shadow: 0 2rem 2rem #a1847f;
+  padding: 3rem;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 3rem;
+}
+
+.upper-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.upper-part p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.icon-tabler-dots {
+  cursor: pointer;
+}
+
+.description {
+  font-size: 1.2rem;
+  max-width: 300px;
+  margin: 1rem 0 1.2rem 0;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.members, .online {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.members span, .online span {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.buttons-container {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+button {
+  display: block;
+  border: 1px solid transparent;
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.join:hover, .joined {
+  background: transparent;
+  border-color: #000;
+  color: #000;
+}
+
+.date {
+  font-size: 0.8rem;
+  color: #000000a0;
+}
+
+@media (max-width: 350px) {
+  .main-container {
+    padding: 1.5rem;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+  }
+}
