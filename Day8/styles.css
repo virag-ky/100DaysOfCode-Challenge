@@ -1,0 +1,103 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f7ff;
+  color: #202247;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  padding: 5rem 1rem;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.positions-container {
+  width: 90%;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.position {
+  background: #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 1.5rem 1.5rem #dee4f3;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.position-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.icon-tabler {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.icon-tabler-brush {
+  background: linear-gradient(to bottom right, #c2cdfc, #e5d3fd);
+}
+
+.icon-tabler-code {
+  background: linear-gradient(to bottom right, #febfda, #fed0d6);
+}
+
+.icon-tabler-settings {
+  background: linear-gradient(to bottom right, #c3e8fe, #e6d7ff);
+}
+
+.icon-tabler-users {
+  background: linear-gradient(to bottom right, #bff8e8, #d1e7fd);
+}
+
+.icon-tabler-report-analytics {
+  background: linear-gradient(to bottom right, #c0d9f5, #f3d6de);
+}
+
+.icon-tabler-school {
+  background: linear-gradient(to bottom right, #f8decb, #dcdbf5);
+}
+
+button {
+  background: transparent;
+  border: 1px solid #2022473c;
+  border-radius: 0.25rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #202247;
+  color: #fff;
+}
+
+p {
+  max-width: 620px;
+  color: #202247a0;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
