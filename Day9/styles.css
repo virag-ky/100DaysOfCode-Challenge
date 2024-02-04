@@ -1,0 +1,219 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ee4a56;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: #fff;
+  border-radius: 1.5rem;
+  width: 90%;
+  max-width: 380px;
+  margin: 5rem 0;
+  padding: 1.5rem;
+}
+
+/* Navbar */
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+nav ul li:hover .icon-tabler {
+  background: #ee4a56;
+  color: #fff;
+}
+
+nav ul li:hover p {
+  visibility: hidden;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.item .icon-tabler {
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+/* Frequent payments section */
+.frequent-payments {
+  margin: 3rem 0;
+  background: linear-gradient(90deg, #ee4a56, #f34d50d7);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+h3 {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.icon-tabler-dots {
+  cursor: pointer;
+}
+
+.profile-images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #f48fa2ba;
+  object-fit: cover;
+  object-position: top;
+  min-width: 60px;
+  height: 60px;
+}
+
+/* Profiles section */
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  margin-bottom: 3rem;
+  box-shadow: 0 0 1rem #c69999;
+  border-radius: 1rem;
+}
+
+.profile:first-of-type, .profile:nth-child(3) {
+  border-right: 1px solid #dcdcdc;
+}
+
+.profile:first-of-type, .profile:nth-child(2) {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.icon-tabler-dots-vertical {
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+  color: #989898;
+}
+
+.name {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.username {
+  font-size: 0.6rem;
+  color: #0000007e;
+}
+
+.profile button {
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 0.5rem;
+  width: 90px;
+  font-size: 0.6rem;
+  background: linear-gradient(90deg, #ee4a56, #e2595be4);
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.profile button:hover {
+  background: transparent;
+  border-color: #ee4a56;
+  color: #ee4a56;
+}
+
+.profile button.added {
+  background: transparent;
+  border-color: #ee4a56;
+  color: #ee4a56;
+}
+
+/* Slider section */
+.splide {
+  margin-bottom: 1.5rem;
+}
+
+.splide li p {
+  font-size: 0.8rem;
+  color: #515151;
+  text-align: center;
+  line-height: 1.4;
+  padding: 0 2rem;
+}
+
+.splide__arrows {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.splide__arrows button {
+  color: #ee4a56;
+  background: transparent;
+  border: 1px solid #ee4a553d;
+  border-radius: 1rem;
+  padding: 0.1rem 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splide__arrow--prev {
+  transform: scaleX(-1);
+}
+
+.splide__pagination__page {
+  background: #ee4a5589;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+.splide__pagination__page.is-active {
+  background: #ee4a56;
+  border: 2px solid #ffa4a4;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+@media (max-width: 320px) {
+  .profile:nth-child(3) {
+    border-bottom: 1px solid #dcdcdc;
+    border-right: none;
+  }
+
+  .profile:first-of-type {
+    border-right: none;
+  }
+}
