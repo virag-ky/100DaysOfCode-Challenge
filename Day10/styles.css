@@ -1,0 +1,145 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dfe0f2;
+  color: #2b327d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment {
+  background: #fff;
+  border-radius: 2rem;
+  width: 90%;
+  max-width: 400px;
+  padding: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.card-details {
+  margin: 0.5rem 0 0 2.5rem;
+}
+
+.card-number, .date, .code {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #2b327d77;
+}
+
+.card-number {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.date, .code {
+  width: 50%;
+  border-radius: 0 0 0 0.25rem;
+}
+
+.code {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0.25rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: inherit;
+}
+
+::placeholder {
+  color: #2b327d;
+}
+
+.date-code {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+#day {
+  margin-left: -2.7rem;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox {
+  border: 1px solid #2b327d77;
+  border-radius: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.checked {
+  background: #2b327d;
+  color: #fff;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.circle {
+  border-radius: 50%;
+  outline: 1px solid #2b327d;
+  width: 1.4rem;
+  height: 1.4rem;
+  cursor: pointer;
+}
+
+.selected {
+  outline-width: 5px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.type + p {
+  margin-left: 2.5rem;
+}
+
+button {
+  width: 100%;
+  background: #2b327d;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 1.5rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background: #2b327dcc;
+}
