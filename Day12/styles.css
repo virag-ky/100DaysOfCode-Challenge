@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6f4f0;
+  color: #3c322a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.widget-container {
+  box-shadow: 0 1rem 1rem -0.5rem #e5d3c3;
+  background: #fff;
+  padding: 3rem 2rem;
+  border-radius: 0.25rem;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+p,
+li {
+  font-size: 0.8rem;
+}
+
+li {
+  list-style: none;
+}
+
+.menu-container {
+  width: 130px;
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+}
+
+.icon-tabler-dots {
+  display: block;
+  cursor: pointer;
+  margin: 0 0 0.5rem auto;
+  padding: 0.25rem;
+  box-shadow: 0 0 0.5rem #e5d3c3;
+  border-radius: 0.25rem;
+}
+
+.menu-list {
+  padding: 0.5rem;
+  width: 100%;
+  box-shadow: 0 0 0.5rem #e5d3c3;
+  border-radius: 0.25rem;
+  display: none;
+}
+
+.menu-list li {
+  padding: 0.8rem;
+  font-size: 0.7rem;
+}
+
+.menu-list li:hover {
+  cursor: pointer;
+  background: #f6f4f0;
+  border-radius: 0.25rem;
+}
+
+.radio-btn-selection {
+  position: relative;
+  margin-bottom: 2rem;
+  width: max-content;
+}
+
+.radio-btn-selection li,
+.checkbox-selection li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.radio-btn,
+.checkbox {
+  min-width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  outline: 1px solid #c9c6c0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+}
+
+.btn,
+.check {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.checkbox {
+  border-radius: 0.25rem;
+}
+
+.check {
+  border-radius: 0.1rem;
+}
+
+.selected, .checked {
+  background: #a9602f;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+button {
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 0.7rem;
+  transition: 0.5s;
+}
+
+.cancel {
+  background: #f6f4f0;
+}
+
+.cancel:hover {
+  background: #fff3dc;
+}
+
+.save {
+  background: #eeab2f;
+}
+
+.save:hover {
+  background: #eeab2fab;
+}
