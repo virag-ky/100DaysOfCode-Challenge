@@ -17,3 +17,11 @@
 | Day 7 | Day 8 |
 |---|---|
 | [![Watch the video](https://img.youtube.com/vi/o9lo3IJnvDA/hqdefault.jpg)](https://www.youtube.com/embed/o9lo3IJnvDA) | [![Watch the video](https://img.youtube.com/vi/CcMCpA2A_VI/hqdefault.jpg)](https://www.youtube.com/embed/CcMCpA2A_VI) 
+
+| Day 9 | Day 10 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/NwUGlDIfPq4/hqdefault.jpg)](https://www.youtube.com/embed/NwUGlDIfPq4) | [![Watch the video](https://img.youtube.com/vi/JMI8gtBjkKg/hqdefault.jpg)](https://www.youtube.com/embed/JMI8gtBjkKg) 
+
+| Day 11 | Day 12 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/xPaw07YoArE/hqdefault.jpg)](https://www.youtube.com/embed/xPaw07YoArE) | [![Watch the video](https://img.youtube.com/vi/InAPCn4cwm4/hqdefault.jpg)](https://www.youtube.com/embed/InAPCn4cwm4) 
