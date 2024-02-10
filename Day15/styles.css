@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f1f4ff;
+  color: #1b245a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscription-container, .subscribed {
+  background: #fff;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  width: 90%;
+  max-width: 300px;
+  box-shadow: 0 1rem 1rem -0.5rem #1b245a29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribed {
+  display: none;
+  text-align: center;
+  position: relative;
+}
+
+.subscribed p {
+  margin-top: 1.5rem;
+  line-height: 1.4;
+}
+
+.subscribed p span {
+  font-size: 1rem;
+}
+
+.icon-tabler-x {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid #1b245a61;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+
+.icon-container {
+  border-radius: 50%;
+  border: 1px solid #1b245a5d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+}
+
+h2 {
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+  letter-spacing: 0.5px;
+}
+
+.price-container {
+  margin: 1rem 0 2.5rem 0;
+  text-align: center;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+span {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.downloads-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.download {
+  border: 1.5px solid #1b245a33;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.download:hover, .selected {
+  background: #1b245a;
+  color: #fff;
+}
+
+.download-num {
+  font-size: 1.2rem;
+}
+
+.downloads-container + p {
+  margin-top: 0.5rem;
+}
+
+button {
+  background: #1b245a;
+  margin-top: 1.5rem;
+  border: none;
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.8rem;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem #1b245a5e;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: none;
+  background: #1b245acd;
+}
