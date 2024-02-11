@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <div class="shadow-background"></div>
+    <div class="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
+      <ul class="menu-list">
+        <li class="delete-all">Delete all</li>
+        <li class="delete-completed">Delete completed</li>
+      </ul>
+    </div>
+    <h1>Groceries</h1>
+    <p>Shared with <a href="#">1 person</a></p>
+    <ul class="to-do">
+      <li>
+        <div class="circle"></div>
+        <p>Eggs</p>
+      </li>
+      <li>
+        <div class="circle"></div>
+        <p>Tomatoes</p>
+      </li>
+      <li>
+        <div class="circle"></div>
+        <p>Avocado</p>
+      </li>
+    </ul>
+    <h2>COMPLETED (<span>0</span>)</h2>
+    <ul class="completed">
+    </ul>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="55" height="45" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
