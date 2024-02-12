@@ -1,0 +1,119 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #5d3f99, #140033);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.invite-card {
+  width: 90%;
+  max-width: 400px;
+  background: #140033;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 3rem;
+  filter: drop-shadow(0 0 3rem #601ad0);
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid #5d3f99af;
+}
+
+img + p {
+  font-size: 0.7rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 0.25rem;
+  background: #9387ff2d;
+  padding: 0.5rem;
+}
+
+.dot {
+  border-radius: 50%;
+  background: #fff;
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+form {
+  width: 100%;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.25rem 0 1rem 0;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.checkbox label {
+  margin-top: 0.25rem;
+}
+
+input[type="checkbox"] {
+  border: none;
+  border-radius: 0.25rem;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+::placeholder {
+  color: #140033;
+}
+
+button {
+  width: 100%;
+  color: #fff;
+  background: #6d12ff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.8rem;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  filter: drop-shadow(0 0 1rem #6d12ff);
+}
+
+a {
+  color: #6d12ff;
+}
+
+a:last-of-type {
+  font-size: 0.7rem;
+}
