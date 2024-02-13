@@ -1,0 +1,189 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #446392;
+  color: #2a4267;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+}
+
+p {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.dot {
+  display: inline-block;
+  border-radius: 50%;
+  background: #2a4267;
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.first-part {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.views-section {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.app-running,
+.errors {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-tabler-category-plus, .icon-tabler-exclamation-mark {
+  border-radius: 50%;
+  border: 5px solid #e6eff6;
+  padding: 0.5rem;
+}
+
+.icon-tabler-category-plus {
+  transform: scaleY(-1);
+}
+
+button {
+  border: none;
+  border-radius: 0.25rem;
+  background: #2a4267;
+  color: #fff;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #2a4267c1;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-section img {
+  border: 5px solid #e6eff69f;
+}
+
+.label {
+  background: #2a4267;
+  color: #fff;
+  padding: 0.25rem;
+  font-size: 0.7rem;
+  border-radius: 0.5rem;
+  margin-top: -1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.username {
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+}
+
+.views-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.total-views {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.profiles{
+  display: flex;
+  align-items: center;
+}
+
+.profiles img {
+  border: 2px solid #fff;
+  display: block;
+}
+
+.profiles img.first {
+  margin-right: -0.8rem;
+  z-index: 3;
+}
+
+.profiles img.second {
+  margin-right: -0.8rem;
+  z-index: 2;
+}
+
+.profiles img.third {
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .first-part section {
+    width: 100%;
+  }
+
+  .views-section {
+    justify-content: center;
+  }
+}
