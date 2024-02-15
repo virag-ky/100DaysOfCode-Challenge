@@ -58,6 +58,7 @@ HEART_ICON.addEventListener("click", () => {
   }
 });
 
+// Click the images
 IMAGE.addEventListener("click", () => {
   PAGINATION_PARTS.forEach(part => {
     part.classList.remove('selected');
@@ -82,5 +83,26 @@ IMAGE.addEventListener("click", () => {
     HEART_ICON.style.fill = "none";
     HEART_ICON.style.stroke = "#000";
   }
-  console.log(IMAGE_SOURCES[currentImg].liked)
 });
+
+// Click the pagination parts
+PAGINATION_PARTS.forEach((p, index) => {
+  p.addEventListener("click", () => {
+      PAGINATION_PARTS.forEach(part => {
+          part.classList.remove('selected');
+      });
+  
+      IMAGE.src = IMAGE_SOURCES[index].source;
+      imgID = IMAGE_SOURCES[index].id;
+      PAGINATION_PARTS[index].classList.add('selected');
+      currentImg = index;
+
+      if (IMAGE_SOURCES[index].liked === true) {
+          HEART_ICON.style.fill = "#fb625b";
+          HEART_ICON.style.stroke = "none";
+      } else {
+          HEART_ICON.style.fill = "none";
+          HEART_ICON.style.stroke = "#000";
+      }
+  })
+})
