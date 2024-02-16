@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efefef;
+  font-family: "Montserrat", sans-serif;
+  color: #50707a;
+  padding: 5rem 0;
+}
+
+h2,
+h3,
+.account {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+nav {
+  width: 100%;
+  max-width: 500px;
+  background: #1a77d4;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.nav-list {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.notifications {
+  position: relative;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #fc7eb7;
+  outline: 2px solid #ffafd383;
+  position: absolute;
+  right: 0.3rem;
+  top: 0.1rem;
+  z-index: 1;
+}
+
+.icon-tabler-bell {
+  z-index: -1;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #126db8;
+  padding: 0.25rem 0.8rem;
+}
+
+.account-section,
+.notifications-section,
+.messages-section {
+  display: none;
+}
+
+.active {
+  display: block;
+  position: absolute;
+  right: 1rem;
+  top: 3.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem #145faa31;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+button {
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  font-size: 0.8rem;
+}
+
+.view-profile {
+  color: #fff;
+  background: #1a77d4;
+}
+
+.view-profile:hover {
+  background: #1a77d4c0;
+}
+
+.add-account {
+  background: transparent;
+  color: #1a77d4;
+}
+
+.add-account:hover {
+  border-color: #1a77d4;
+}
+
+.account-list {
+  background: #efefef;
+  padding: 1rem 2rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.account-list li {
+  padding: 1rem 0;
+}
+
+.account-list li:hover {
+  color: #126db8;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.notifications-section, .messages-section {
+  padding: 1rem;
+}
+
+.notifications-list li {
+  padding: 0.5rem 0;
+}
+
+.clear-all-notifications {
+  display: block;
+  width: max-content;
+  margin-left: auto;
+  margin-bottom: 1rem;
+}

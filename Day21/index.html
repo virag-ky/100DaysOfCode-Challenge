@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Dropdown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul class="nav-list">
+      <li class="messages">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+      </li>
+      <li class="notifications">
+        <div class="dot"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" /><path d="M9 17v1a3 3 0 0 0 6 0v-1" /></svg></li>
+      <li class="account">
+        John
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 9l6 6l6 -6" /></svg>
+      </li>
+    </ul>
+    <section class="messages-section">
+      <p>No new messages</p>
+    </section>
+    <section class="notifications-section">
+      <button class="clear-all-notifications">Clear all</button>
+      <ul class="notifications-list">
+        <li>Notification 1</li>
+        <li>Notification 2</li>
+        <li>Notification 3</li>
+      </ul>
+      <p></p>
+    </section>
+    <section class="account-section">
+      <div class="profile">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRT_ulFye0VE3Pn_98XpPKYHvlQBAprI0zQdWx3PRfKuxGr7Lfx" alt="" width="100" height="100">
+        <div class="profile-info">
+          <h2>John Smith</h2>
+          <h3>Manager</h3>
+          <div class="buttons-container">
+            <button class="view-profile">View Profile</button>
+            <button class="add-account">Add Account</button>
+          </div>
+        </div>
+      </div>
+      <ul class="account-list">
+        <li>Upgrade to <span>PRO</span></li>
+        <li>Invite team member</li>
+        <li>Feedback</li>
+        <li>Help</li>
+        <li>Sign Out</li>
+      </ul>
+    </section>
+  </nav>
+  <script src="index.js"></script>
+</body>
+</html>
