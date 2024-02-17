@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top right, #0d4d7a, #062c4a);
+  color: #ffffffdd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.account-panel {
+  background: #103c62;
+  filter: drop-shadow(0 0 2rem #0c6094);
+  padding: 1.2rem;
+  border-radius: 0.25rem;
+  width: 90%;
+  max-width: 350px;
+}
+
+.profiles {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  min-width: 80px;
+}
+
+.icon-tabler-chevron-right {
+  cursor: pointer;
+  color: #062c4a;
+}
+
+button {
+  background: #39a4ee;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background: #2878b1;
+}
+
+.account-list {
+  border-top: 2px solid #062d4a7b;
+  padding: 1rem;
+}
+
+.account-list li {
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.account-list li:hover {
+  color: #3f93c7;
+}
