@@ -1,0 +1,116 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000ca;
+}
+
+main {
+  width: 90%;
+  max-width: 500px;
+}
+
+section {
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 0.5rem 1rem #00000017;
+}
+
+#shadow-host-companion {
+  display: none;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+.description {
+  color: #0000006e;
+}
+
+.icon-tabler-shield-filled, .icon-tabler-device-mobile {
+  color: #9387ff;
+}
+
+.emails {
+  margin-top: 1.5rem;
+}
+
+.primary-email, .other-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  background: #dcdcdc77;
+  padding: 0.35rem 0.5rem;
+}
+
+.other-email {
+  margin-top: 1rem;
+}
+
+.add-email, .add-phone-number {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.icon-tabler-plus {
+  border-radius: 50%;
+  border: 1px solid #f5f5f5;
+  color: #eb9e23;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+a {
+  color: #eb9e23;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.phone-number-info {
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 350px;
+}
+
+.status {
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
