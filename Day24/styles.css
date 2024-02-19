@@ -1,0 +1,121 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #052745;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.alarm-container {
+  width: 90%;
+  max-width: 300px;
+  background: #062d50;
+  border-radius: 0.2rem;
+  box-shadow: 0 2rem 2rem #021c32;
+}
+
+nav {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-tabler {
+  cursor: pointer;
+}
+
+.display {
+  text-align: center;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.display time {
+  font-size: 2rem;
+}
+
+.date {
+  color: #ffffff9c;
+  font-size: 0.9rem;
+}
+
+.icon-tabler-plus {
+  position: absolute;
+  right: 1.5rem;
+  bottom: -1.2rem;
+  border-radius: 50%;
+  background: #38c4fe;
+  padding: 0.5rem;
+}
+
+.saved-alarms-container {
+  background: #023662;
+  padding: 2rem 1.5rem;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+.saved-alarm-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.saved-alarm-time time {
+  font-size: 1.5rem;
+  color: #ffffff33;
+}
+
+.toggle-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toggle-track {
+  width: 2.5rem;
+  height: 0.5rem;
+  background: #021c32a3;
+  border-radius: 1rem;
+}
+
+.toggle-button {
+  border-radius: 50%;
+  background: #021c32fd;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.saved-alarm-time .active-alarm {
+  color: #fff;
+}
+
+.active {
+  background: #38c4fe;
+  right: 0;
+}
+
+.week {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+}
+
+.day {
+  color: #ffffff0a;
+}
+
+.active-day {
+  color: #ffffff33;
+}
