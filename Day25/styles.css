@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1d1f33;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pink-bg {
+  background: #e94173;
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  bottom: -2rem;
+  z-index: -1;
+}
+
+main {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+main section {
+  background: #2f2f50;
+  border-radius: 0.35rem;
+  padding: 2rem;
+}
+
+.plan-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.plan-type {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  font-size: 0.75rem;
+}
+
+.plan-container a {
+  color: #ffffff8c;
+  transition: 0.5s;
+}
+
+.plan-container a:hover {
+  color: #e94173;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+}
+
+.buttons-container button {
+  background: #e94173;
+  color: #fff;
+  border: none;
+}
+
+.buttons-container button:hover {
+  background: #e94173ad;
+}
+
+.invoices {
+  margin-bottom: 1.5rem;
+}
+
+.invoices li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  text-align: right;
+  padding: 0.5rem;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.invoices li:hover {
+  background: #1d1f33;
+}
+
+.download {
+  color: transparent;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.invoices li:hover .download {
+  color: #e94173;
+}
+
+.invoice-history-container button {
+  background: transparent;
+  border: 1.5px solid #43438b;
+  color: #fff;
+}
+
+.invoice-history-container button:hover {
+  color: #e94173;
+  border-color: #e94173;
+}
+
+@media (max-width: 750px) {
+  main {
+    flex-direction: column;
+  }
+}
