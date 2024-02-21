@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breadcrumbs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="breadcrumbs">
+    <ul>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid-dots" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
+      </li>
+      <li>
+        <p class="section-name-account active">My Account</p>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+        <p class="section-name-billing">Billing</p>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+        <p class="section-name-invoices">Invoices</p>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <section class="account">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRT_ulFye0VE3Pn_98XpPKYHvlQBAprI0zQdWx3PRfKuxGr7Lfx" alt="" width="100" height="100">
+        <div class="profile-info">
+          <h2>John Smith</h2>
+          <h3>Manager</h3>
+          <div class="buttons-container">
+            <button class="view-profile">View Profile</button>
+            <button class="add-account">Add Account</button>
+          </div>
+        </div>
+    </section>
+    <section class="billing">
+      <h2>Billing <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg></h2>
+      <div class="billing-info">
+        <div>
+        <h3>Your plan</h3>
+        <p class="plan-type">Professional</p>
+        <div class="buttons-container">
+         <button class="upgrade-plan">Upgrade Plan</button>
+          <a class="cancel-plan" href="#">Cancel Plan</a>
+        </div>
+      </div>
+      <section class="invoices">
+        <h2>Invoices <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg></h2>
+        <ul class="invoices-list">
+          <li class="invoice">
+            <p class="date">
+              Jun 26, 2021
+            </p>
+            <p class="price">$25.00</p>
+            <a href="#" class="download">Download PDF</a>
+          </li>
+          <li class="invoice">
+            <p class="date">
+              Jun 29, 2021
+            </p>
+            <p class="price">$35.00</p>
+            <a href="#" class="download">Download PDF</a>
+          </li>
+          <li class="invoice">
+            <p class="date">
+              Aug 12, 2021
+            </p>
+            <p class="price">$20.00</p>
+            <a href="#" class="download">Download PDF</a>
+          </li>
+          <li class="invoice">
+            <p class="date">
+              Oct 30, 2021
+            </p>
+            <p class="price">$125.00</p>
+            <a href="#" class="download">Download PDF</a>
+          </li>
+          <li class="invoice">
+            <p class="date">
+              Nov 05, 2021
+            </p>
+            <p class="price">$25.00</p>
+            <a href="#" class="download">Download PDF</a>
+          </li>
+          <li>
+            <button class="show-all">Show all invoices</button>
+          </li>
+        </ul>
+      </section>
+    </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

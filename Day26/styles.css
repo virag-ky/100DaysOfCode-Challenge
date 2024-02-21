@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#3fa1f4, #7ed7ff);
+  font-family: "Mulish", sans-serif;
+  padding: 5rem 0;
+}
+
+.breadcrumbs,
+main {
+  width: 90%;
+  max-width: 500px;
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 1rem 1rem #1b69ae8a;
+}
+
+.billing-info, .invoices-list {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.open-chevron {
+  transform: rotate(90deg);
+}
+
+.breadcrumbs {
+  margin-bottom: 2rem;
+  color: #adadad;
+}
+
+.icon-tabler-grid-dots {
+  color: #f0618c;
+  cursor: pointer;
+}
+
+.breadcrumbs ul {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  list-style: none;
+}
+
+.breadcrumbs ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.breadcrumbs ul li:has(.section-name-billing),
+.breadcrumbs ul li:has(.section-name-invoices) {
+  visibility: hidden;
+}
+
+.active {
+  color: #f0618c;
+  font-weight: 700;
+}
+
+main {
+  padding: 2rem;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: #f4f4f49b;
+  padding: 2.5rem 1rem;
+  border-radius: 1.2rem;
+}
+
+img {
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.25rem #506e8b);
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.buttons-container {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button {
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+}
+
+.view-profile,
+.upgrade-plan, .show-all {
+  background: #f0618c;
+  color: #fff;
+}
+
+.view-profile:hover,
+.upgrade-plan:hover, .show-all:hover {
+  background: #b14264;
+}
+
+.add-account {
+  background: transparent;
+  color: #f0618c;
+}
+
+.add-account:hover {
+  border-color: #f0618c;
+}
+
+.billing {
+  margin-top: 1.5rem
+}
+
+.billing-info {
+  margin-top: 1rem;
+}
+
+.billing h2,
+.invoices h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  background: #f4f4f49b;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.billing h2 {
+  margin-bottom: unset;
+}
+
+.billing-info div:not(.buttons-container) {
+  padding: 0 1rem;
+}
+
+.plan-type {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.cancel-plan {
+  color: #f0618c;
+  margin-left: 1rem;
+}
+
+a {
+  font-size: 0.8rem;
+}
+
+.invoices-list {
+  list-style: none;
+  padding: 1rem;
+}
+
+.invoices li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+
+.invoices li a {
+  color: #f0618c;
+}
+
+@media (max-width: 400px) {
+  .breadcrumbs {
+    padding: 0.8rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .account {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
