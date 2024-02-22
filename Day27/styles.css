@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 300px;
+  min-height: 500px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem #8c382d47;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  background: #ef5d4b;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-tabler-arrow-back-up,
+.icon-tabler-search {
+  cursor: pointer;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: underline;
+  margin: 1.5rem 0;
+  color: #8a8886;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.status {
+  color: #8a88868d;
+  text-align: center;
+}
+
+.status p {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.add-hours {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  background: #ef5d4b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  box-shadow: 0 0.5rem 1rem #8c382d53;
+  color: #8a8886;
+  width: 80%;
+  max-width: 250px;
+}
+
+label {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  color: #8a8886;
+  outline: none;
+  border-radius: 0.25rem;
+  border: 1.5px solid #8a88865e;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding-left: 2.8rem;
+  font-size: 1.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form p {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0.25rem 0 1rem 0;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+form p button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.25rem;
+  color: #8a8886;
+}
+
+#reset {
+  border: none;
+  background: transparent;
+  color: #8a8886;
+  width: max-content;
+  margin: 0.5rem auto 1rem auto;
+}
+
+#reset:hover {
+  color: #ef5d4b;
+}
+
+form div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+form div button {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+#cancel {
+  background: transparent;
+  color: #8a8886;
+  border: 1px solid #8a8886;
+}
+
+#cancel:hover {
+  border-color: transparent;
+  color: #ef5d4b;
+}
+
+#save {
+  background: #ef5d4b;
+  color: #fff;
+  border: none;
+}
+
+#save:hover {
+  background: #ef5e4bbe;
+}
+
+.logged-hours {
+  color: #8a8886;
+  padding: 0.5rem;
+}
