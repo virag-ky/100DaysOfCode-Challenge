@@ -1,0 +1,82 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  font-family: "Orbitron", sans-serif;
+  background: url('./2077.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.countdown-container {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  background: #00262be3;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(5px);
+  border-radius: 0.25rem;
+  border: 2px solid #00ffe6;
+  color: #00ffe6;
+}
+
+.block-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background: #000000;
+  padding: 1.5rem;
+  box-shadow: 0 1rem 2rem #00ffe5af;
+  border-radius: 0.25rem;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: #00ffe6;
+}
+
+.blocks div {
+  font-size: 4rem;
+  min-width: 120px;
+  text-align: center;
+  text-shadow: 0 0 0.5rem;
+}
+
+@media (max-width: 750px) {
+
+  .block-container {
+    gap: 0.5rem;
+  }
+
+  .blocks div {
+    font-size: 1.5rem;
+    min-width: 60px;
+  }
+
+   h1 {
+    font-size: 1.6rem;
+   }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
