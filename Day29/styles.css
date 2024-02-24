@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #122b62;
+  color: #fff;
+  font-family: monospace;
+  counter-reset: list;
+}
+
+.course-progress {
+  width: 90%;
+  max-width: 500px;
+  background: #13285a;
+  box-shadow: 0.5rem 0.5rem 1rem #0b1e46;
+}
+
+header {
+  background: #0d2151;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #0094d4;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-weight: 400;
+  padding: 1rem 1.5rem;
+}
+
+.lessons {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 1rem;
+  transition: 0.5s;
+}
+
+li.completed {
+  opacity: 0.7;
+}
+
+li.completed:hover {
+  background: #0b1e46;
+}
+
+li.in-progress {
+  background: #0094d4;
+  opacity: 0.9;
+}
+
+li.in-progress:hover {
+  background: #007baf;
+}
+
+li.upcoming {
+  cursor: not-allowed;
+  opacity: 0.2;
+}
+
+li::before {
+  counter-increment: list;
+  content: counter(list) " ";
+}
+
+.icon-tabler-check {
+  margin-left: auto;
+}
