@@ -1,0 +1,317 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background: #213555;
+  color: #f0f0f0;
+  min-height: 45vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  background: #e5d183;
+  padding: 0.5rem 1rem;
+  color: #213555;
+  font-weight: 700;
+}
+
+.nav-items,
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.add-board {
+  background: #e5d183;
+  border: none;
+  color: #213555;
+  padding: 0.5rem;
+  height: 60px;
+  margin-top: -1.5rem;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.add-board:hover {
+  background: #e5d183ce;
+}
+
+.profile {
+  gap: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.open-profile-menu {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
+.icon-tabler-user {
+  background: #385076;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.boards-stats {
+  margin: 0.25rem 3rem;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  opacity: 0.7;
+}
+
+.dot {
+  background: #f0f0f0;
+  border-radius: 50%;
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.tools {
+  position: absolute;
+  right: 3rem;
+  top: 5rem;
+}
+
+.tools .icon-tabler {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5s;
+  margin-left: 1rem;
+}
+
+.tools .icon-tabler:hover {
+  color: #e5d283;
+}
+
+main {
+  background: #f0f0f0;
+  flex: 1;
+  position: relative;
+}
+
+.page-status {
+  margin: -8rem auto 0 auto;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f0f0f0;
+  padding: 4rem;
+  position: relative;
+  color: #213555;
+}
+
+.status {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.instructions {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  line-height: 1.5;
+  width: max-content;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.instructions span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.boards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.board {
+  background: #4f709c;
+  color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem #213555;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.board:hover {
+  box-shadow: none;
+}
+
+.board .icon-tabler {
+  color: #e5d183;
+}
+
+h2 {
+  font-size: 1.2rem;
+  word-break: break-all;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.5rem 1rem #21355585;
+  color: #8a8886;
+  width: 80%;
+  max-width: 300px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+#reset {
+  background: transparent;
+  width: max-content;
+  color: #213555;
+  margin: 1rem auto;
+  display: block;
+}
+
+form p {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+form p button {
+  padding: 0.25rem;
+  margin-top: 0.25rem;
+  border-radius: 0.25rem;
+  background: #4f709c23;
+}
+
+label {
+ color: #213555;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.25rem 0 1rem 0;
+  color: #213555;
+}
+
+input[type='number'] {
+  margin-bottom: 0;
+  -moz-appearance: textfield;
+}
+
+form div {
+  display: flex;
+  gap: 1rem;
+}
+
+form div button {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+}
+
+#cancel {
+  background: #4f709c23;
+  color: #213555;
+}
+
+#save {
+  background: #213555;
+  color: #f0f0f0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #213555;
+}
+
+a {
+  color: #f0f0f0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 500px) {
+  .page-status {
+    width: 300px;
+    height: 300px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .boards-stats {
+    margin-left: 1rem;
+  }
+
+  .tools {
+    right: 1rem;
+  }
+
+  .tools .icon-tabler {
+    margin-left: 0.5rem;
+  }
+
+  .instructions {
+    font-size: 0.55rem;
+  }
+}
