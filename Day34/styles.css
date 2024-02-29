@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #282828;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
+  padding: 5rem 0;
+}
+
+.stats-container {
+  background: #ff0000;
+  padding: 1.5rem 0.8rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1rem #ff0000;
+  width: 90%;
+  max-width: 200px;
+}
+
+.stats-container .stats {
+  background: #fff;
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  position: relative;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: 0.5s;
+  height: 150px;
+}
+
+.stats-container .stats:hover {
+  background: #282828;
+  color: #ff0000;
+  text-shadow: 0 0 1rem #ff0000;
+  transform: scale(1.05);
+}
+
+.title {
+  visibility: hidden;
+  position: absolute;
+}
+
+.stats-container .stats:hover .title {
+  visibility: visible;
+  position: relative;
+}
+
+.stats-container .stats:hover .num {
+  visibility: hidden;
+  position: absolute;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border: none;
+  background: #fff;
+  border-radius: 0.25rem;
+  color: #282828;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: transparent;
+  color: #fff;
+}
