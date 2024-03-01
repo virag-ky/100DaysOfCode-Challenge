@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #171717;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5rem 0;
+}
+
+main {
+  width: 90%;
+  max-width: 650px;
+  display: flex;
+  gap: 2rem;
+}
+
+section {
+  background: #222;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+}
+
+#shadow-host-companion {
+  display: none;
+}
+
+.form-container {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+}
+
+.icon-tabler-x {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  cursor: pointer;
+  color: #c3ceff;
+}
+
+.welcome {
+  margin: 0.5rem 0 1rem 0;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 0.7rem;
+  background: #5b73d9;
+}
+
+.chat-form button {
+  width: 100%;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.chat-form button:hover,
+.sub-form button:hover {
+  border-color: #5b73d9;
+  color: #5b73d9;
+  background: transparent;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background: transparent;
+  border: 1px solid #c3ceff48;
+  color: inherit;
+  outline: none;
+}
+
+label {
+  color: #c3ceff;
+  font-size: 0.8rem;
+  margin: 1rem 0 0.25rem 0;
+  display: block;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+.sub-sections-container {
+  max-width: 350px;
+}
+
+.safety {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.icon-tabler-shield-check {
+  color: #5b73d9;
+}
+
+h3 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.get-started {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 0.35rem;
+  width: 100px;
+  margin-top: 0.5rem;
+}
+
+.get-started:hover {
+  background: #5b73d9;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sub-form {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.sub-form button {
+  padding: 0.6rem;
+  color: #fff;
+  width: 50px;
+}
+
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
