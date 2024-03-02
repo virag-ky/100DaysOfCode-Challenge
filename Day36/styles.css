@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #2d3250;
+  color: #cdd4fd;
+}
+
+dialog {
+  width: 90%;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #424769;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 0 1rem 1rem #1a1d30b4;
+  color: inherit;
+  text-align: center;
+  outline: none;
+}
+
+.icon-tabler-x {
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 400;
+  color: #f6b17a;
+}
+
+.instruction {
+  margin: 1rem 0 2rem 0;
+  font-size: 0.9rem;
+  padding: 0 2.5rem;
+  line-height: 1.5;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.option {
+  border: 10px solid #7077a1;
+  border-radius: 0.25rem;
+  padding: 1rem 0.5rem;
+  min-width: 100px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.option:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #838bbb;
+}
+
+.option p {
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+}
+
+.icon-tabler:not(.icon-tabler-x) {
+  color: #f6b17a;
+}
+
+button {
+  background: #f6b17a;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  color: #2d3250;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: 0 0 1rem #f6b17a;
+}
