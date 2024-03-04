@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background: linear-gradient(to top right, #3a5290, #14939f);
+}
+
+.profile-card {
+  width: 90%;
+  max-width: 300px;
+  background: #fff;
+}
+
+header {
+  position: relative;
+}
+
+img {
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border: 5px solid #84dcffc3;
+}
+
+.banner {
+  width: 100%;
+  height: 150px;
+  background: url("https://images.unsplash.com/photo-1509326066092-14b2e882fe86?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXJjdGljfGVufDB8fDB8fHww");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.banner .icon-tabler {
+  color: #fff;
+  z-index: 2;
+  position: absolute;
+  cursor: pointer;
+}
+
+.icon-tabler-arrow-narrow-left {
+  left: 1rem;
+  top: 0.5rem;
+}
+
+.icon-tabler-star {
+  right: 1rem;
+  top: 1rem;
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #006fc498;
+  z-index: 1;
+}
+
+h1 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  padding-top: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.info {
+  color: #3c508b;
+  padding: 3rem 2rem 2rem 2rem;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  border-top: 2px solid #3a52904c;
+  font-size: 0.9rem;
+}
+
+nav ul li {
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem 0;
+  color: #808080cf;
+  transition: 0.5s;
+}
+
+nav ul li:hover, .active {
+  color: #3a5290;
+  cursor: pointer;
+  background: #a1bcff36;
+}
+
+.skill-container {
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+.progress {
+  border-radius: 1rem;
+  width: 100%;
+  height: 0.6rem;
+  background: linear-gradient(to right, #3a5290, #08cfe1);
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.empty-layer {
+ background: #c3ede9;
+ height: 100%;
+}
+
+.empty-layer.advertising {
+  width: 25%;
+}
+
+.empty-layer.wedding {
+  width: 10%;
+}
+
+.empty-layer.fashion {
+  width: 55%;
+}
+
+h2 {
+  color: #02b5a3;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+button {
+  background: #02b5a3;
+  border: none;
+  color: #fff;
+  width: 100%;
+  padding: 1.2rem;
+  cursor: pointer;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: #14939f;
+}
