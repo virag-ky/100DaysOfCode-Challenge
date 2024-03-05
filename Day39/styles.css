@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: #232e4d;
+  padding: 5rem 0;
+  position: relative;
+  overflow-x: hidden;
+  color: #232e4d;
+}
+
+.pink-bg {
+  background: #fee4ea;
+  width: 150%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 50%;
+  z-index: 1;
+  transform: skew(-30deg);
+}
+
+#shadow-host-companion {
+  display: none;
+}
+
+section {
+  width: 90%;
+  max-width: 550px;
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  z-index: 2;
+  box-shadow: 0 0 1rem #232e4d38;
+}
+
+.job-post {
+  position: relative;
+}
+
+.icon-tabler-dots {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  border-radius: 50%;
+  outline: 2px solid #74819f32;
+}
+
+.icon-tabler-brush {
+  padding: 0.8rem;
+  color: #de3c3c;
+}
+
+h1 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+  color: #74819f;
+  margin-bottom: 1rem;
+}
+
+button {
+  border: 1px solid transparent;
+  background: transparent;
+  color: inherit;
+  border-radius: 0.2rem;
+  width: 85px;
+  padding: 0.35rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.save {
+  border-color: #232e4d;
+}
+
+.save:hover {
+  background: #232e4d;
+  color: #fff;
+}
+
+.apply {
+  background: #232e4d;
+  color: #fff;
+}
+
+.apply:hover {
+  background: #232e4dc5;
+}
+
+.company-info {
+  display: flex;
+  gap: 1rem;
+  background: #74819f08;
+  border: 1px solid #74819f37;
+  border-radius: 0.2rem;
+  padding: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 0.8rem;
+  color: #74819f;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+
+.company-info ul, .company-info p {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.company-info p {
+  color: #74819f;
+}
+
+.company-info ul {
+  padding: 0 0.6rem;
+}
+
+.company-info ul li {
+  width: max-content;
+  padding-bottom: 0.5rem;
+
+}
+
+.view-job-post {
+  width: max-content;
+  margin: 1.5rem auto 0 auto;
+  display: block;
+}
+
+.job-description {
+  display: none;
+}
+
+.icon-tabler-x {
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-description ul, .job-description p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.job-description ul {
+  padding: 0 0.6rem;
+}
+
+@media (max-width: 520px) {
+  .company-info {
+    flex-wrap: wrap;
+  }
+
+  .title-container {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .title-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
