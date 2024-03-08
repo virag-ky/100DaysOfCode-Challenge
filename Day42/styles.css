@@ -1,0 +1,110 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top right, #3c50e4, #6cf5ff);
+  color: #fff;
+}
+
+.meeting-end-screen {
+  width: 90%;
+  max-width: 400px;
+}
+
+h1, h2 {
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttons-container {
+  margin: 2rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  font-weight: 500;
+  transition: 0.5s;
+  color: inherit;
+}
+
+.rejoin {
+  width: 25%;
+  background: transparent;
+  border-color: #fff;
+}
+
+.rejoin:hover {
+  background: #fff;
+  color: #3c82e4;
+}
+
+.return {
+  flex: 1;
+  background: #fff;
+  color: #3c82e4;
+}
+
+.return:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+.feedback-container {
+  background: #fff;
+  border-radius: 0.2rem;
+  padding: 1.5rem;
+  color: #3c82e4;
+}
+
+.emojies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emojies div {
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+img {
+  cursor: pointer;
+  padding: 0.6rem;
+}
+
+.selected img {
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem #3c7ae4c0;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 350px) {
+  .feedback-container {
+    padding: 1.5rem 0.5rem;
+  }
+}
