@@ -37,3 +37,59 @@
 | Day 17 | Day 18 |
 |---|---|
 | [![Watch the video](https://img.youtube.com/vi/xbKB9kHEEYI/hqdefault.jpg)](https://www.youtube.com/embed/xbKB9kHEEYI) | [![Watch the video](https://img.youtube.com/vi/8v1CRonr7b4/hqdefault.jpg)](https://www.youtube.com/embed/8v1CRonr7b4) 
+
+| Day 19 | Day 20 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/usHPR3YL_vQ/hqdefault.jpg)](https://www.youtube.com/embed/usHPR3YL_vQ) | [![Watch the video](https://img.youtube.com/vi/zLM81u9yfTo/hqdefault.jpg)](https://www.youtube.com/embed/zLM81u9yfTo) 
+
+| Day 21 | Day 22 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/u-dE9ztTaqg/hqdefault.jpg)](https://www.youtube.com/embed/u-dE9ztTaqg) | [![Watch the video](https://img.youtube.com/vi/DJTYp0cRsXw/hqdefault.jpg)](https://www.youtube.com/embed/DJTYp0cRsXw) 
+
+| Day 23 | Day 24 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/e_Fx47WzNSU/hqdefault.jpg)](https://www.youtube.com/embed/e_Fx47WzNSU) | [![Watch the video](https://img.youtube.com/vi/eJQHAkE7v10/hqdefault.jpg)](https://www.youtube.com/embed/eJQHAkE7v10) 
+
+| Day 25 | Day 26 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/CD_t1RPg-dA/hqdefault.jpg)](https://www.youtube.com/embed/CD_t1RPg-dA) | [![Watch the video](https://img.youtube.com/vi/UH9S3O7lrto/hqdefault.jpg)](https://www.youtube.com/embed/UH9S3O7lrto) 
+
+| Day 27 | Day 28 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/IhxtSMVN-Zk/hqdefault.jpg)](https://www.youtube.com/embed/IhxtSMVN-Zk) | [![Watch the video](https://img.youtube.com/vi/vYwt2Y8j6Ho/hqdefault.jpg)](https://www.youtube.com/embed/vYwt2Y8j6Ho) 
+
+| Day 29 | Day 30 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/dZRxI-SdAhI/hqdefault.jpg)](https://www.youtube.com/embed/xbKB9kHEEYI) | [![Watch the video](https://img.youtube.com/vi/elJ5vudY_ms/hqdefault.jpg)](https://www.youtube.com/embed/elJ5vudY_ms) 
+
+| Day 31 | Day 32 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/VmWuwTvZayg/hqdefault.jpg)](https://www.youtube.com/embed/VmWuwTvZayg) | [![Watch the video](https://img.youtube.com/vi/u7RBSCN9UFo/hqdefault.jpg)](https://www.youtube.com/embed/u7RBSCN9UFo) 
+
+| Day 33 | Day 34 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/uQNUSSZNPeM/hqdefault.jpg)](https://www.youtube.com/embed/uQNUSSZNPeM) | [![Watch the video](https://img.youtube.com/vi/3M-yC7ZpOtg/hqdefault.jpg)](https://www.youtube.com/embed/3M-yC7ZpOtg) 
+
+| Day 35 | Day 36 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/TugmZDdbJVo/hqdefault.jpg)](https://www.youtube.com/embed/TugmZDdbJVo) | [![Watch the video](https://img.youtube.com/vi/Qj7eFFRA31Q/hqdefault.jpg)](https://www.youtube.com/embed/Qj7eFFRA31Q) 
+
+| Day 37 | Day 38 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/KK8KqlIf1H4/hqdefault.jpg)](https://www.youtube.com/embed/KK8KqlIf1H4) | [![Watch the video](https://img.youtube.com/vi/Sw5348-so2U/hqdefault.jpg)](https://www.youtube.com/embed/Sw5348-so2U) 
+
+| Day 39 | Day 40 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/R7Jk8OybTVc/hqdefault.jpg)](https://www.youtube.com/embed/R7Jk8OybTVc) | [![Watch the video](https://img.youtube.com/vi/fdWxqmofoyE/hqdefault.jpg)](https://www.youtube.com/embed/fdWxqmofoyE) 
+
+| Day 41 | Day 42 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/fo7d7uF8VHI/hqdefault.jpg)](https://www.youtube.com/embed/fo7d7uF8VHI) | [![Watch the video](https://img.youtube.com/vi/ExRQRE65J80/hqdefault.jpg)](https://www.youtube.com/embed/ExRQRE65J80) 
+
+| Day 43 | Day 44 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/0ntuU3KU6hU/hqdefault.jpg)](https://www.youtube.com/embed/0ntuU3KU6hU) | [![Watch the video](https://img.youtube.com/vi/B3vhYlR3nm8/hqdefault.jpg)](https://www.youtube.com/embed/B3vhYlR3nm8) 
+
+| Day 45 | Day 46 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/milhlEtP_OU/hqdefault.jpg)](https://www.youtube.com/embed/milhlEtP_OU) | [![Watch the video](https://img.youtube.com/vi/m7SEkCFrirY/hqdefault.jpg)](https://www.youtube.com/embed/m7SEkCFrirY) 
