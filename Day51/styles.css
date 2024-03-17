@@ -1,0 +1,88 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d8d9e2;
+  padding: 5rem 0;
+}
+
+.collections-section {
+  background: #edf0f2;
+  border-radius: 2rem;
+  width: 90%;
+  max-width: max-content;
+  padding: 2rem;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  list-style: none;
+  margin: 1rem 0 2rem 0;
+}
+
+.labels li {
+  background: #fff;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+}
+
+.collections-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.collection {
+  border-radius: 1rem;
+  background: #fff;
+  padding: 1rem;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.sub-images {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.sub-images img {
+  flex: 1;
+  object-position: 0 20%;
+}
+
+.collection-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.7rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
