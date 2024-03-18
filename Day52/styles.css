@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafe;
+  padding: 5rem 0;
+  counter-reset: list;
+}
+
+.leaderboard {
+  width: 90%;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 0.2rem;
+  padding: 2rem 0;
+  box-shadow: 0 0.5rem 1rem #5b5be638;
+  position: relative;
+}
+
+.icon-tabler-share {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  background: #fc5c75;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  width: 45px;
+  height: 30px;
+  border-radius: 1rem;
+}
+
+h2 {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+ol {
+  margin-top: 2rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  font-weight: 700;
+  opacity: .8;
+}
+
+li::before {
+  counter-increment: list;
+  content: counter(list);
+}
+
+.name {
+  margin: 0 auto 0 1rem;
+}
+
+li:nth-of-type(odd) {
+  background: #dcdcdc37;
+}
+
+li:first-of-type {
+  background: #5050d8;
+  opacity: 1;
+  color: #fff;
+  box-shadow: 0 0.2rem 0.5rem #79798e;
+  transform: scale(1.03);
+}
+
+.award {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.5px;
+  transition: 0.5s;
+}
+
+.exit {
+  background: transparent;
+  opacity: 0.5;
+}
+
+.exit:hover {
+  color: #5050d8;
+  opacity: 1;
+}
+
+.continue {
+  background: #5b5be6;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem #4949bd;
+  position: relative;
+}
+
+.continue:hover {
+  box-shadow: none;
+  top: 0.1rem;
+}
