@@ -1,0 +1,158 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1d232a;
+}
+
+.card {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 0.25rem;
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem #1d232a52;
+  position: relative;
+}
+
+.rating {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  font-size: 0.8rem;
+  color: #a4a4a4;
+}
+
+span {
+  color: #3a72ff;
+  font-weight: 700;
+}
+
+.type {
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  color: #3a72ff;
+}
+
+.info {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+.people {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 0.1rem 0;
+  font-size: 0.7rem;
+  color: #3a72ff;
+}
+
+.more {
+  margin-top: 0.5rem;
+}
+
+h3 {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.bottom-part {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+button {
+  border: 1.5px solid #1d232a;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  border-radius: 1.5rem;
+  padding: 0.2rem 0.8rem;
+}
+
+.buy {
+  font-weight: 700;
+}
+
+.trailer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  color: #fff;
+  background: #1d232a;
+  padding: 0;
+  padding-left: 0.5rem;
+}
+
+.trailer .icon-tabler {
+  background: #fff;
+  color: #1d232a;
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+
+@media (max-width: 650px) {
+  .card {
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .people {
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .bottom-part {
+    margin: 2rem auto;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .trailer {
+    margin-left: 0;
+  }
+}
