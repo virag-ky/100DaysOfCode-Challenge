@@ -1,0 +1,133 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #118ef8, #0478e5c0);
+}
+
+.drink-water-app {
+  width: 90%;
+  max-width: 300px;
+  background: linear-gradient(to right, #2495ff, #116ef8);
+  box-shadow: 0 0.5rem 2rem #0a2e84;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  color: #fff;
+}
+
+nav .icon-tabler {
+  cursor: pointer;
+}
+
+main {
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.today {
+  opacity: .8;
+}
+
+.liters {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  width: auto;
+  height: 120px;
+}
+
+button {
+  cursor: pointer;
+  width: 60%;
+  border: none;
+  font-weight: 700;
+  color: #434343;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  background: linear-gradient(#fff, #74bcff);
+  box-shadow: 0 0.5rem 1rem -0.25rem #0a2e84;
+}
+
+main section {
+  background: #fff;
+  color: #434343;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.days {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.2rem;
+  margin: 1rem 0;
+}
+
+.day div {
+  border-radius: 50%;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  height: 60px;
+}
+
+.current {
+  background: #dcdcdc7d;
+}
+
+.day div.filled {
+  background: linear-gradient(#9cc3ff, #1454eb);
+}
+
+.day div.empty {
+  background: #dcdcdc;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.day div.small {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.day div.medium {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.day div.big {
+  width: 1.2rem;
+  height: 1.2rem;
+}
