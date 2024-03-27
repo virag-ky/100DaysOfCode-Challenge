@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top right, #994fae, #343a91);
+  padding: 5rem 0;
+}
+
+.shopping-cart {
+  width: 90%;
+  max-width: 350px;
+  height: 600px;
+  border-radius: 0.5rem;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(to right, #b551f0, #fd90d2);
+  color: #fff;
+  box-shadow: 0 0.25rem 1rem #a31ef09c;
+}
+
+nav .icon-tabler, button {
+  cursor: pointer;
+}
+
+nav p {
+  opacity: 1;
+}
+
+img {
+  object-fit: contain;
+  width: 70px;
+  height: 60px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-bottom: 1.5px solid #fd90d143;
+}
+
+.manage-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+select {
+  border: 1px solid #b6b6b6;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.25rem;
+  opacity: .7;
+  width: 40px;
+}
+
+.manage-item .icon-tabler {
+  opacity: .6;
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5;
+  cursor: pointer;
+}
+
+p.price {
+  margin-left: auto;
+}
+
+p {
+  font-size: 0.8rem;
+  opacity: .7;
+}
+
+.subtotal {
+  margin: 0.8rem 1rem 0 auto;
+  width: max-content;
+}
+
+.subtotal span {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.button-container {
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -95%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.bottom-line {
+  width: 60px;
+  background: #fff;
+  height: 0.15rem;
+  border-radius: 0.5rem;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  bottom: -27%;
+  width: 100%;
+  height: 250px;
+  background:  linear-gradient(to right, #b551f0, #fd90d2);
+}
