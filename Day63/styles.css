@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 0;
+  background: #fafcff;
+}
+
+section {
+  border-radius: 1rem;
+  padding: 3rem 1rem 1rem 1rem;
+  width: 90%;
+  max-width: 500px;
+  background: #fff;
+  box-shadow: 0 1.8rem 2rem -1.2rem #a8a5b8;
+  border: 1px solid #a8a5b811;
+  text-align: center;
+}
+
+#shadow-host-companion {
+  display: none;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.7rem;
+  margin: 1rem 0;
+}
+
+.code {
+  background: #f0f1f7;
+  border-radius: 0.25rem;
+  width: max-content;
+  margin: 0 auto;
+  padding: 1rem 1.2rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.questions {
+  font-size: 0.6rem;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.code-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+input {
+  width: 55px;
+  height: 80px;
+  border-radius: 0.25rem;
+  border: 2px solid #dcdcdc;
+  font-size: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.5rem #a8a5b84a;
+}
+
+.correct {
+  outline-color: #02c102;
+  border-color: #02c102;
+}
+
+.wrong {
+  outline-color: #ff0000;
+  border-color: #ff0000;
+}
+
+::placeholder {
+  color: #dcdcdc;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.message {
+  display: none;
+}
+
+.verified {
+  display: block;
+  letter-spacing: unset;
+  font-size: 1rem;
+}
