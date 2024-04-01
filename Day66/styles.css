@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.popup {
+  background: #ded5cd;
+  border-right: 1px solid #000000af;
+  border-bottom: 1.3px solid #000000af;
+  border-left: 1px solid #ded5cd;
+  border-top: 1px solid #ded5cd;
+  width: 90%;
+  max-width: 350px;
+}
+
+.top-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #0067f1, #00c0ff);
+}
+
+.top-part p {
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.25rem;
+}
+
+.top-part .icon-tabler-x {
+  background: #ded5cd;
+  border: 1px solid #000000af;
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto 1rem auto;
+  width: 70%;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: 1.2px solid #000000af;
+  border-bottom-width: 1.6px;
+  padding: 0.25rem;
+  font-size: 0.8rem;
+  width: 100%;
+}

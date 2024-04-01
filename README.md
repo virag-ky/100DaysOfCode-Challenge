@@ -109,3 +109,23 @@
 | Day 53 | Day 54 |
 |---|---|
 | [![Watch the video](https://img.youtube.com/vi/uRwkDGpQ5bc/hqdefault.jpg)](https://www.youtube.com/embed/uRwkDGpQ5bc) | [![Watch the video](https://img.youtube.com/vi/81C16YaWI1Q/hqdefault.jpg)](https://www.youtube.com/embed/81C16YaWI1Q) 
+
+| Day 55 | Day 56 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/TdhoXVNcj1c/hqdefault.jpg)](https://www.youtube.com/embed/TdhoXVNcj1c) | [![Watch the video](https://img.youtube.com/vi/cF3xsZcrLFo/hqdefault.jpg)](https://www.youtube.com/embed/cF3xsZcrLFo) 
+
+| Day 57 | Day 58 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/8wbAE7gYAgQ/hqdefault.jpg)](https://www.youtube.com/embed/8wbAE7gYAgQ) | [![Watch the video](https://img.youtube.com/vi/uZ5KHH0obMc/hqdefault.jpg)](https://www.youtube.com/embed/uZ5KHH0obMc) 
+
+| Day 59 | Day 60 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/bOIokm5cWdo/hqdefault.jpg)](https://www.youtube.com/embed/bOIokm5cWdo) | [![Watch the video](https://img.youtube.com/vi/ijC4Eib1vAI/hqdefault.jpg)](https://www.youtube.com/embed/ijC4Eib1vAI) 
+
+| Day 61 | Day 62 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/FBC7VqENoxU/hqdefault.jpg)](https://www.youtube.com/embed/FBC7VqENoxU) | [![Watch the video](https://img.youtube.com/vi/y8ORIwR4d-c/hqdefault.jpg)](https://www.youtube.com/embed/y8ORIwR4d-c) 
+
+| Day 63 | Day 64 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/77wn_o4VLLo/hqdefault.jpg)](https://www.youtube.com/embed/77wn_o4VLLo) | [![Watch the video](https://img.youtube.com/vi/5OLx_8SsJkY/hqdefault.jpg)](https://www.youtube.com/embed/5OLx_8SsJkY) 
