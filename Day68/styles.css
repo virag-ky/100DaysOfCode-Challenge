@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background: #f2f2f2;
+}
+
+main {
+  width: 90%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 2rem;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.buttons p {
+  opacity: .4;
+  font-style: italic;
+}
+
+.primary-buttons div, .secondary-buttons div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 0.2rem;
+ border: 1px solid transparent;
+ border-radius: 0.15rem;
+ padding: 0.5rem;
+}
+
+.icon-tabler-chevron-down {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.primary-buttons button {
+  color: #fff;
+}
+
+button.primary-default {
+  background: #4a8fe0;
+}
+
+button.primary-hover {
+  background: #3076c7;
+}
+
+button.primary-disabled {
+  background: #c0cad6;
+}
+
+.secondary-buttons button {
+  background: transparent;
+}
+
+button.secondary-default {
+  color: #4a8fe0;
+  border-color: #4a8fe0;
+}
+
+button.secondary-hover {
+  color: #3076c7;
+  border-color: #3076c7;
+}
+
+button.secondary-disabled {
+  color: #c0cad6;
+  border-color: #c0cad6;
+}
+
+.text-elements {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.text p {
+  margin: 0.5rem 0;
+}
+
+.text p:last-of-type {
+  opacity: .4;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+  color: #3076c7;
+  font-size: 0.7rem;
+}
+
+.hovered-link {
+  font-size: 0.7rem;
+  text-decoration: underline;
+}
+
+h4 {
+  opacity: .4;
+  font-size: 0.7rem;
+  margin-bottom: 0.25rem;
+}
+
+.badges {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  border-radius: 1rem;
+  color: #fff;
+  padding: 0.25rem 0.4rem;
+}
+
+.badge p {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.6rem;
+}
+
+.badge span {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 0.1rem 0.3rem;
+}
+
+.badge:first-of-type {
+  background: #3076c7;
+}
+
+.badge:nth-of-type(2) {
+  background: #7dc432;
+}
+
+.badge:last-of-type {
+  background: #e0475e;
+}
+
+.card {
+  border-radius: 0.35rem;
+  border: 2px solid #dcdcdc4b;
+  padding: 0.8rem;
+  position: relative;
+}
+
+h5 {
+  font-size: 0.8rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+}
+
+.icon-tabler-star {
+  position: absolute;
+  right: 0.8rem;
+  top: 0.8rem;
+  color: #c0cad6;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .buttons, .text-elements {
+    flex-direction: column;
+  }
+}
