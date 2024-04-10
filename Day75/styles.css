@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edeef5;
+}
+
+.message {
+  background: #fff;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0.5rem 1rem #a4a1c0;
+  text-align: center;
+  padding: 3rem;
+}
+
+img {
+  width: 100px;
+}
+
+.label {
+  border-radius: 0.2rem;
+  padding: 0.25rem;
+  font-size: 0.8rem;
+  color: #ff0000;
+  background: linear-gradient(to right, #ffeeee, #ffadad);
+  width: max-content;
+  margin: 0.25rem auto;
+}
+
+p {
+  font-size: 0.7rem;
+  opacity: .6;
+}
+
+.main-message {
+  font-weight: 700;
+  margin: 2rem 0;
+  font-size: 1rem;
+  opacity: 1;
+}
+
+p:last-of-type {
+  margin-top: 1rem;
+}
