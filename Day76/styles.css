@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background: #deb887;
+}
+
+.card {
+  width: 90%;
+  max-width: 450px;
+  background: #fff;
+  border-radius: 0.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.background {
+  background: url("https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwYmVhbnN8ZW58MHx8MHx8fDA%3D");
+  width: 100%;
+  height: 200px;
+  position: absolute;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  background: #00000066;
+}
+
+h1, p.description, .price {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 3rem 0 0.5rem 0;
+}
+
+p.description {
+  opacity: .9;
+}
+
+.price {
+  position: absolute;
+  background: #ef3635;
+  padding: 0.2rem;
+  font-weight: 700;
+  width: 150px;
+  top: 1.5rem;
+  right: -2.5rem;
+  transform: rotate(45deg);
+}
+
+img {
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #deb887a6;
+  background: #fff;
+  width: 120px;
+  height: 120px;
+  padding: 0.25rem;
+  display: block;
+  margin: 2rem auto 0 auto; 
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.buttons-container button {
+  background: transparent;
+  border: 1px solid #ef3635;
+  color: #ef3635;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+}
+
+.buttons-container button:hover {
+  background: #ef3635;
+  color: #fff;
+}
+
+.buttons-container button .icon-tabler {
+  width: 1rem;
+  height: 1rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  text-align: center;
+}
+
+.stats p {
+  font-size: 0.9rem;
+}
+
+.stats span {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.location, .website {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  opacity: .8;
+}
+
+.buy-now {
+  background: #ef3635;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  width: 100%;
+  height: 100px;
+}
+
+.buy-now:hover {
+  background: #ef3535b9;
+}
