@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  min-height: 100vh;
+  color: #2a2846;
+  background: linear-gradient(to right, #c3c8ff, #999efe);
+}
+
+nav, canvas, .traffic {
+  background: #fff;
+}
+
+nav, main {
+  width: 90%;
+  max-width: 800px;
+}
+
+nav {
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1.5rem;
+  font-size: 0.8rem;
+}
+
+nav ul:first-of-type li {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+nav ul:first-of-type li:not(.active) {
+  opacity: .5;
+}
+
+nav ul:first-of-type li:hover {
+  color: #7b47ff;
+  opacity: 1;
+}
+
+nav ul li.notification {
+  position: relative;
+}
+
+nav ul li.notification .icon-tabler {
+  color: #6d52b1;
+}
+
+nav ul li.notification div.notification-number {
+  position: absolute;
+  right: -0.3rem;
+  top: -0.25rem;
+  background: #9c75ff;
+  color: #fff;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+}
+
+.upgrade-section, .charts div, .traffic {
+  border-radius: 0.25rem;
+}
+
+.charts-section {
+  width: 100%;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.charts div {
+  height: 150px;
+  width: 150px;
+  flex: auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background: #9c75ff;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.7rem;
+}
+
+button .icon-tabler {
+  width: 1rem;
+  height: 1rem;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  min-width: 50px;
+}
+
+.upgrade-section {
+  background: #2a2846;
+  color: #fff;
+  min-width: 200px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upgrade-section img {
+  border-radius: unset;
+  width: 50px;
+  height: 50px;
+}
+
+.upgrade-section p {
+  color: #dee1ff;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.upgrade-section span {
+  font-weight: 700;
+  color: #fff;
+}
+
+.upgrade-section button {
+  letter-spacing: 1px;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.traffic {
+  display: flex;
+  padding: 1.5rem;
+  gap: 0.1rem;
+  font-size: 0.8rem;
+}
+
+.traffic p {
+  width: max-content;
+}
+
+.traffic > div {
+  width: 100%;
+}
+
+.traffic > div.direct {
+  width: 50%;
+}
+
+.traffic > div.social {
+  width: 70%;
+}
+
+.traffic > div.organic {
+  width: 100%;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.direct .dot {
+  background: #7971e8;
+}
+
+.social .dot {
+  background: #918cef;
+}
+
+.organic .dot {
+  background: #ae90f1;
+}
+
+.traffic > div > div {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bar {
+  height: 0.6rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.bar-direct {
+  background: #7971e8;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.bar-social {
+  background: #918cef;
+}
+
+.bar-organic {
+  background: #ae90f1;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+@media (max-width: 600px) {
+  main, nav {
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 2rem;
+  }
+}
