@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2f2e42;
+  color: #fff;
+}
+
+main {
+  background: #434058;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5rem #0b0b0b;
+}
+
+nav {
+  padding: 2rem 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin-left: auto;
+  width: max-content;
+  font-size: 0.9rem;
+}
+
+button, input[type="submit"] {
+  background: #91e3a9;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 80px;
+  color: #2f2e42;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+header p {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+header img {
+ width: 45%;
+}
+
+form {
+  width: max-content;
+}
+
+input[type="email"] {
+  outline: none;
+  background: transparent;
+  border: 1px solid #dcdcdc74;
+  border-radius: 0.2rem;
+  padding: 0.45rem;
+  min-width: 200px;
+}
+
+::placeholder {
+  color: #dcdcdc;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 0.25rem;
+  background: #2f2e42;
+  padding: 2rem;
+  margin: 0 3rem 3rem 3rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  max-width: 160px;
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+}
+
+.feature-name {
+  font-weight: 700;
+}
+
+.feature-note {
+  opacity: .8;
+}
+
+@media (max-width: 570px) {
+
+  header img {
+    display: none;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  form {
+    width: auto;
+  }
+
+  input[type="submit"], input[type="email"] {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    width: auto;
+  }
+}
