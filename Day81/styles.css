@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6f5f8;
+}
+
+main {
+  width: 100%;
+  max-width: 650px;
+  position: relative;
+}
+
+h1, h1 + p {
+  text-align: center;
+}
+
+h1 + p {
+  max-width: 350px;
+  margin: 1rem auto;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.timeline {
+  background: #888893;
+  position: absolute;
+  left: 50%;
+  width: 0.15rem;
+  height: 80%;
+}
+
+.accomplishment {
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.5rem #88889362;
+  max-width: 300px;
+  flex: 1;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.25rem;
+  position: relative;
+}
+
+.corner {
+  width: 1rem;
+  height: 1rem;
+  background: #fff;
+  transform: rotate(45deg) translate(0, -50%);
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.accomplishment::before {
+  content: "";
+  background: #888893;
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -1.9rem;
+  transform: translate(0, -50%);
+}
+
+.accomplishment.left-side::before {
+  left: unset;
+  right: -2rem;
+}
+
+.accomplishment.right-side {
+  flex-direction: row-reverse;
+  margin-left: auto;
+}
+
+.accomplishment.right-side .corner {
+  left: -0.8rem;
+}
+
+.accomplishment.right-side .info {
+  margin-right: auto;
+}
+
+.accomplishment.left-side .info {
+  text-align: right;
+  margin-left: auto;
+}
+
+.date {
+  opacity: .5;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.accomplishment-description {
+  margin: 0.5rem 0 1rem 0;
+  opacity: .8;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.accomplishment.accomplishment.left-side button {
+  margin-left: auto;
+}
+
+button .icon-tabler {
+  width: 0.8rem;
+  height: 0.8rem;
+  stroke-width: 3;
+}
+
+.accomplishment .label {
+  font-weight: 700;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  width: max-content;
+  height: max-content;
+  border-radius: 0.25rem;
+}
+
+.medium {
+  background: #e8f3ea;
+}
+
+.blog {
+  background: #fff2f2;
+}
+
+.app-ideas {
+  background: #fbf4e5;
+}
+
+.twitter {
+  background: #ecfcff;
+}
