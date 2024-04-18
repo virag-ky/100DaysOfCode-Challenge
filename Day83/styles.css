@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f8f9ff;
+  min-height: 100vh;
+  position: relative;
+}
+
+.orange-bg {
+  background: #ffd9b8;
+  width: 150px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.repositories-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 0 0.5rem 2rem #9a9a9a;
+  width: 90%;
+  max-width: 300px;
+}
+
+h1, ul {
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+search {
+  margin: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1.5px solid #e6e6e6;
+  border-radius: 0.25rem;
+}
+
+search .icon-tabler {
+  color: #a3a3a3;
+  stroke-width: 1;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button, .icon-tabler-plus {
+  background: #8a82f0;
+  color: #fff;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  border: none;
+  height: 60px;
+  margin-top: 4rem;
+}
+
+a {
+  color: #8a82f0;
+  font-size: 0.8rem;
+  margin-left: 3.5rem;
+}
+
+.icon-tabler-plus {
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  stroke-width: 1.5;
+  display: block;
+  margin-left: auto;
+}
