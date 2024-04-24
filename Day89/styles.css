@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f5f6;
+}
+
+.friend-request {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 0.2rem;
+  box-shadow: 0 1.5rem 1rem -0.5rem #fcc8d0;
+  background: #fff;
+  padding: 3rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+ul, h2, button {
+  position: relative;
+}
+
+a {
+  position: absolute;
+  right: 1.5rem;
+  top: 3rem;
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  min-width: 60px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.mutual-friends {
+  font-size: 0.7rem;
+}
+
+button {
+  cursor: pointer;
+  margin-left: auto;
+  background: #fff;
+  border-radius: 0.2rem;
+  border: none;
+  font-size: 0.6rem;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 0.2rem 0.2rem #00000062;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: none;
+  background: #fcc8d0;
+}
+
+.orange-bg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(#ff7970, #ff9a4b);
+  position: absolute;
+}
+
+.orange-bg:first-of-type {
+  right: -3rem;
+  top: -3rem;
+  transform: rotate(-90deg);
+}
+
+.orange-bg:last-of-type {
+  bottom: -10rem;
+  left: -2rem;
+}
