@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabbed UI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li class="tab">
+          <button class="active">Details</button>
+        </li>
+        <li class="tab">
+          <button>Tutorials</button>
+        </li>
+        <li class="tab">
+          <button>Code snippets</button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="details">
+        <h2>Color Palette</h2>
+        <p class="description">Click on the color to copy code.</p>
+        <div class="colors">
+          <div class="color-container">
+            <div class="color"></div>
+            <p class="color-code">#BAC4E0</p>
+          </div>
+          <div class="color-container">
+            <div class="color"></div>
+            <p class="color-code">#E9EFFD</p>
+          </div>
+          <div class="color-container">
+            <div class="color"></div>
+            <p class="color-code">#F2F3F6</p>
+          </div>
+          <div class="color-container">
+            <div class="color"></div>
+            <p class="color-code">#8F95A7</p>
+          </div>
+          <div class="color-container">
+            <div class="color"></div>
+            <p class="color-code">#5282F6</p>
+          </div>
+          <div class="color-container">
+            <div class="color"></div>
+            <p class="color-code">#222E4E</p>
+          </div>
+        </div>
+        <h2>Fonts</h2>
+        <p class="font">Muli Regular</p>
+        <p class="font">Muli Bold</p>
+      </section>
+      <section class="tutorials">
+        <h2>Tutorials</h2>
+        <p class="description">
+          Learn how to build this component.
+        </p>
+        <h3>HTML/CSS</h3>
+        <div class="tutorial">
+          <p class="name">John Doe</p>
+          <p class="url">https://www.example.com/html</p>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+        </div>
+        <div class="tutorial">
+          <p class="name">Jane Doe</p>
+          <p class="url">https://www.example.com/css</p>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+        </div>
+        <h3>React Native</h3>
+        <div class="tutorial">
+          <p class="name">Bob Brown</p>
+          <p class="url">https://www.example.com/react-native</p>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+        </div>
+        <p class="send-link">
+          Did you make a tutorial with this component? <a href="javascript:void(0)">Send your link</a> and we will post it here.
+        </p>
+      </section>
+      <section class="code-snippets">
+        <h2>Code snippets</h2>
+        <p class="description">Inspect the solutions others implemented.</p>
+        <div class="snippet">
+          <p class="name">Wendy White</p>
+          <p class="url">https://www.example.com/snippet-1</p>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+        </div>
+        <div class="snippet">
+          <p class="name">Sally Simpson</p>
+          <p class="url">https://www.example.com/snippet-2</p>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+        </div>
+        <p class="send-link">
+          Did you build this component? <a href="javascript:void(0)">Send your link</a> and we will post it here.
+        </p>
+      </section>
+    </main>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
