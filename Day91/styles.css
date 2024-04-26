@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e0e0;
+  color: #14143b;
+}
+
+header {
+  background: #fff9f2;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 2rem 2rem -1rem #00000045;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 25%;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.metamask {
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.description {
+  margin: 0.5rem 0 1rem 0;
+  max-width: 200px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-links button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #14143b3f;
+  border-radius: 0.5rem;
+  padding: 0.35rem;
+  transition: 0.5s;
+}
+
+.social-links button:hover {
+  background: #ea7c37;
+}
+
+.social-links button .icon-tabler {
+  opacity: .7;
+}
+
+.social-links button:hover .icon-tabler {
+  color: #fff;
+}
+
+.stats {
+ width: 100%;
+ max-width: 350px;
+}
+
+.organizations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: .8;
+}
+
+.progress-container {
+ border-radius: 1rem;
+ width: 100%;
+ height: 0.6rem;
+ background: #e0e0e0;
+ margin-top: 0.5rem;
+ overflow: hidden;
+}
+
+.progress {
+  background: #ea7c37;
+  width: 75%;
+  height: 100%;
+}
+
+.followers-container {
+  margin: 4rem 0 0 auto;
+  width: max-content;
+}
+
+span {
+  font-weight: 700;
+}
+
+.follow {
+  margin-left: auto;
+  margin-top: 1rem;
+  display: block;
+  background: #14143b;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.8rem 1rem;
+  width: 100px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.follow:hover {
+  background: #14143bb3;
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
