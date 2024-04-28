@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 5rem 0;
+  background: #1a2037;
+  color: #afb6cf;
+}
+
+.groups {
+  background: #242c42;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.side-nav {
+  background: #1a2037;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li:hover, .selected {
+  background: #272c44;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.upper-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0.25rem;
+}
+
+.go-back {
+  background: transparent;
+  color: #afb6cf;
+  gap: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.go-back .icon-tabler {
+  stroke-width: 1.5;
+}
+
+.buttons-container {
+  border: 1.5px solid #1a2037;
+  border-radius: 0.5rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.buttons-container button:first-of-type {
+  background: #1a2037;
+  color: #afb6cf;
+}
+
+.buttons-container button:last-of-type {
+  background: #242c42;
+  color: #afb6cf;
+}
+
+.buttons-container .icon-tabler {
+  stroke-width: 1.5;
+}
+
+.dot {
+  background: #8e63ff;
+  position: absolute;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  top: 1rem;
+  right: 1rem;
+}
+
+.groups-container {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.group {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: #1a2037;
+  cursor: pointer;
+  position: relative;
+}
+
+.group:first-of-type {
+  background: #2e3452;
+}
+
+p {
+  font-size: 0.65rem;
+  text-align: center;
+}
+
+.group-name {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+img, .icon-tabler-plus {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  object-fit: cover;
+}
+
+.icon-tabler-plus {
+  stroke-width: 1.5;
+  background: #242c42;
+  padding: 0.25rem;
+  width: 2.2rem;
+  height: 2.2rem;
+}
