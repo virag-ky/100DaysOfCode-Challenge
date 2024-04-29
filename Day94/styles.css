@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0dfe2;
+}
+
+.weather-app {
+  background: #fff;
+  box-shadow: 0 0 5rem #acb7c5;
+  width: 90%;
+  max-width: 300px;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.25rem;
+  z-index: 2;
+  font-size: 0.7rem;
+}
+
+nav .icon-tabler {
+  width: 1rem;
+  height: 1rem;
+}
+
+.battery {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+header {
+  background: url("https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bG9uZG9ufGVufDB8fDB8fHww");
+  background-size: cover;
+  background-position: bottom;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+header .icon-tabler-dots {
+  margin-top: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #7272728b;
+}
+
+h1 {
+  padding: 5rem 0 0 0;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.today {
+  position: relative;
+}
+
+.today div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.today span {
+ font-weight: 700;
+ font-size: 3rem;
+}
+
+.today .icon-tabler {
+  width: 3rem;
+  height: 3rem;
+}
+
+ul {
+  margin: 2.5rem 0;
+  padding: 0 2.5rem;
+}
+
+li {
+  list-style: none;
+  color: #888e9e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.weather {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.weather .icon-tabler:last-of-type {
+  margin-left: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+button {
+  cursor: pointer;
+  background: #888e9e;
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+button .icon-tabler {
+  width: 1.1rem;
+  height: 1.1rem;
+}
