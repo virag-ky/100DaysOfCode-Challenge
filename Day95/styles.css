@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ef491f;
+}
+
+header, nav {
+  width: 90%;
+  max-width: 1000px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.mobile-menu, .icon-tabler-menu-2 {
+  display: none;
+}
+
+.logo {
+  font-size: 2rem;
+  display: flex;
+  gap: 0.1rem;
+}
+
+.logo span {
+  font-size: 1.2rem;
+  margin-top: 0.25rem;
+}
+
+ul.menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+li a:hover {
+  color: #f3f3f3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1, .logo {
+  font-family: "Bowlby One", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+p.description {
+  margin: 1.5rem 0;
+  max-width: 400px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+button.browse-menu {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.8rem 3.5rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+button.browse-menu:hover {
+  background: #f3f3f3;
+  color: #000;
+}
+
+img {
+  object-fit: cover;
+}
+
+header img {
+  transform: rotate(-3deg);
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  p.description {
+    margin: 1.5rem auto;
+  }
+
+  header img {
+    width: 90%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  ul.menu {
+    display: none;
+  }
+
+  .icon-tabler-menu-2 {
+    display: block;
+    cursor: pointer;
+    stroke-width: 2.5;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  position: absolute;
+  top: 3rem;
+  background: #f3f3f3;
+  width: 100%;
+  list-style: none;
+}
