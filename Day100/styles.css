@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #282f37;
+  color: #f6f6f6;
+}
+
+div.booking-app {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+nav {
+  background: #89b4e1;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  width: max-content;
+  margin-left: 4.5rem;
+}
+
+nav .icon-tabler {
+  stroke-width: 1.5;
+  cursor: pointer;
+}
+
+header {
+  background: url("https://images.unsplash.com/photo-1546587348-d12660c30c50?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW4lMjB2aWV3fGVufDB8fDB8fHww");
+  background-size: cover;
+  height: 150px;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button.view-images {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.7rem;
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+  background: #282f37bc;
+  color: #fff;
+}
+
+section.location-section {
+  background: #2a313c;
+  padding: 0.8rem 1.5rem;
+}
+
+div.location {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  opacity: .6;
+}
+
+div.location .icon-tabler {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+section.info-section {
+  background: #323846;
+  padding: 1rem 1.5rem 3rem 1.5rem;
+}
+
+p.description {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  opacity: .8;
+}
+
+div.images-container {
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+div.users-visited {
+  font-size: 0.6rem;
+  opacity: .8;
+}
+
+span {
+  color: #92bcef;
+}
+
+div.images {
+  display: flex;
+}
+
+div.images img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+div.images img:nth-of-type(2) {
+  margin-left: -0.8rem;
+}
+
+div.images img:nth-of-type(3) {
+  margin-left: -0.8rem;
+}
+
+div.images img:nth-of-type(4) {
+  margin-left: -0.8rem;
+}
+
+div.images img:nth-of-type(5) {
+  margin-left: -0.8rem;
+}
+
+div.images img:nth-of-type(6) {
+  margin-left: -0.8rem;
+}
+
+button.book-trip {
+  background: #92bcef;
+  width: 100%;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 0.8rem;
+}
