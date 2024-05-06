@@ -161,3 +161,43 @@
 | Day 79 | Day 80 |
 |---|---|
 | [![Watch the video](https://img.youtube.com/vi/tbFwOriX9gw/hqdefault.jpg)](https://www.youtube.com/embed/tbFwOriX9gw) | [![Watch the video](https://img.youtube.com/vi/DsWadT8X-VE/hqdefault.jpg)](https://www.youtube.com/embed/DsWadT8X-VE) 
+
+| Day 81 | Day 82 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/05TeFwwGGM0/hqdefault.jpg)](https://www.youtube.com/embed/05TeFwwGGM0) | [![Watch the video](https://img.youtube.com/vi/ASh_ZncUOy4/hqdefault.jpg)](https://www.youtube.com/embed/ASh_ZncUOy4) 
+
+| Day 83 | Day 84 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/TLZ9mCh8LhY/hqdefault.jpg)](https://www.youtube.com/embed/TLZ9mCh8LhY) | [![Watch the video](https://img.youtube.com/vi/AAOgUBPy79I/hqdefault.jpg)](https://www.youtube.com/embed/AAOgUBPy79I) 
+
+| Day 85 | Day 86 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/rj1QFMHOYgk/hqdefault.jpg)](https://www.youtube.com/embed/rj1QFMHOYgk) | [![Watch the video](https://img.youtube.com/vi/OLHMfPMO3hc/hqdefault.jpg)](https://www.youtube.com/embed/OLHMfPMO3hc) 
+
+| Day 87 | Day 88 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/H4fPs1_9oeE/hqdefault.jpg)](https://www.youtube.com/embed/H4fPs1_9oeE) | [![Watch the video](https://img.youtube.com/vi/oijVMCv9VU8/hqdefault.jpg)](https://www.youtube.com/embed/oijVMCv9VU8) 
+
+| Day 89 | Day 90 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/4EMPSOgltyE/hqdefault.jpg)](https://www.youtube.com/embed/4EMPSOgltyE) | [![Watch the video](https://img.youtube.com/vi/K8XrFpTySwU/hqdefault.jpg)](https://www.youtube.com/embed/K8XrFpTySwU) 
+
+| Day 91 | Day 92 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/cZB8OAdWe1M/hqdefault.jpg)](https://www.youtube.com/embed/cZB8OAdWe1M) | [![Watch the video](https://img.youtube.com/vi/V2YlOi41Vmk/hqdefault.jpg)](https://www.youtube.com/embed/V2YlOi41Vmk) 
+
+| Day 93 | Day 94 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/fvRyzlQcU-s/hqdefault.jpg)](https://www.youtube.com/embed/fvRyzlQcU-s) | [![Watch the video](https://img.youtube.com/vi/FVRLVPuuweI/hqdefault.jpg)](https://www.youtube.com/embed/FVRLVPuuweI) 
+
+| Day 95 | Day 96 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/Ph_LI_F0diY/hqdefault.jpg)](https://www.youtube.com/embed/Ph_LI_F0diY) | [![Watch the video](https://img.youtube.com/vi/iBvpAyD0rMw/hqdefault.jpg)](https://www.youtube.com/embed/iBvpAyD0rMw) 
+
+| Day 97 | Day 98 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/xPOEOpbupEw/hqdefault.jpg)](https://www.youtube.com/embed/xPOEOpbupEw) | [![Watch the video](https://img.youtube.com/vi/UYS_twVK6dk/hqdefault.jpg)](https://www.youtube.com/embed/UYS_twVK6dk) 
+
+| Day 99 | Day 100 |
+|---|---|
+| [![Watch the video](https://img.youtube.com/vi/HckRJaIZZzc/hqdefault.jpg)](https://www.youtube.com/embed/HckRJaIZZzc) | [![Watch the video](https://img.youtube.com/vi/8VWTFwFVFdA/hqdefault.jpg)](https://www.youtube.com/embed/8VWTFwFVFdA) 
